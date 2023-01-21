@@ -1,85 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="50897" started-at="2023-01-20T21:31:56 CST" finished-at="2023-01-20T21:32:47 CST">
+  <suite name="scripts.TechGlobalCheckBoxTest" duration-ms="14098" started-at="2023-01-21T13:39:58 CST" finished-at="2023-01-21T13:40:12 CST">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="50897" started-at="2023-01-20T21:31:56 CST" finished-at="2023-01-20T21:32:47 CST">
-      <class name="scripts.TechGlobalFrontEndTestingHomeTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalFrontEndTestingHomeTest@598067a5]" name="setup" is-config="true" duration-ms="9748" started-at="2023-01-20T21:31:56 CST" finished-at="2023-01-20T21:32:06 CST">
+    <test name="Command line test" duration-ms="14098" started-at="2023-01-21T13:39:58 CST" finished-at="2023-01-21T13:40:12 CST">
+      <class name="scripts.TechGlobalCheckBoxTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalCheckBoxTest@3c0ecd4b]" name="setup" is-config="true" duration-ms="9039" started-at="2023-01-21T13:39:58 CST" finished-at="2023-01-21T13:40:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalFrontEndTestingHomeTest@598067a5]" name="setPage" is-config="true" duration-ms="5" started-at="2023-01-20T21:32:06 CST" finished-at="2023-01-20T21:32:06 CST">
+        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalCheckBoxTest@3c0ecd4b]" name="setPage" is-config="true" duration-ms="6" started-at="2023-01-21T13:40:07 CST" finished-at="2023-01-21T13:40:07 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateFrontEndTestingCards()[pri:1, instance:scripts.TechGlobalFrontEndTestingHomeTest@598067a5]" name="validateFrontEndTestingCards" duration-ms="4619" started-at="2023-01-20T21:32:06 CST" description="Validate Frontend testing cards" finished-at="2023-01-20T21:32:11 CST">
+        <test-method status="PASS" signature="validateCheckboxes2()[pri:2, instance:scripts.TechGlobalCheckBoxTest@3c0ecd4b]" name="validateCheckboxes2" duration-ms="4906" started-at="2023-01-21T13:40:07 CST" description="Validate checkboxes of second group" finished-at="2023-01-21T13:40:12 CST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateFrontEndTestingCards -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalFrontEndTestingHomeTest@598067a5]" name="teardown" is-config="true" duration-ms="90" started-at="2023-01-20T21:32:11 CST" finished-at="2023-01-20T21:32:11 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalFrontEndTestingHomeTest@598067a5]" name="setup" is-config="true" duration-ms="7964" started-at="2023-01-20T21:32:11 CST" finished-at="2023-01-20T21:32:19 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setPage()[pri:0, instance:scripts.TechGlobalFrontEndTestingHomeTest@598067a5]" name="setPage" is-config="true" duration-ms="8" started-at="2023-01-20T21:32:19 CST" finished-at="2023-01-20T21:32:19 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setPage -->
-        <test-method status="PASS" signature="validateFrontendTestingURL()[pri:2, instance:scripts.TechGlobalFrontEndTestingHomeTest@598067a5]" name="validateFrontendTestingURL" duration-ms="1830" started-at="2023-01-20T21:32:19 CST" description="Validate URL" finished-at="2023-01-20T21:32:21 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateFrontendTestingURL -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalFrontEndTestingHomeTest@598067a5]" name="teardown" is-config="true" duration-ms="86" started-at="2023-01-20T21:32:21 CST" finished-at="2023-01-20T21:32:21 CST">
+        </test-method> <!-- validateCheckboxes2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalCheckBoxTest@3c0ecd4b]" name="teardown" is-config="true" duration-ms="86" started-at="2023-01-21T13:40:12 CST" finished-at="2023-01-21T13:40:12 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- scripts.TechGlobalFrontEndTestingHomeTest -->
-      <class name="scripts.TechGlobalLogoTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalLogoTest@3c0ecd4b]" name="setup" is-config="true" duration-ms="7935" started-at="2023-01-20T21:32:21 CST" finished-at="2023-01-20T21:32:29 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateTechGlobalLogo()[pri:0, instance:scripts.TechGlobalLogoTest@3c0ecd4b]" name="validateTechGlobalLogo" duration-ms="532" started-at="2023-01-20T21:32:29 CST" finished-at="2023-01-20T21:32:29 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTechGlobalLogo -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalLogoTest@3c0ecd4b]" name="teardown" is-config="true" duration-ms="87" started-at="2023-01-20T21:32:29 CST" finished-at="2023-01-20T21:32:29 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- scripts.TechGlobalLogoTest -->
-      <class name="scripts.TechGlobalHeaderTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalHeaderTest@14bf9759]" name="setup" is-config="true" duration-ms="8017" started-at="2023-01-20T21:32:29 CST" finished-at="2023-01-20T21:32:37 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateTechGlobalHeaderDropdown()[pri:1, instance:scripts.TechGlobalHeaderTest@14bf9759]" name="validateTechGlobalHeaderDropdown" duration-ms="507" started-at="2023-01-20T21:32:37 CST" finished-at="2023-01-20T21:32:38 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTechGlobalHeaderDropdown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalHeaderTest@14bf9759]" name="teardown" is-config="true" duration-ms="89" started-at="2023-01-20T21:32:38 CST" finished-at="2023-01-20T21:32:38 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:scripts.TechGlobalHeaderTest@14bf9759]" name="setup" is-config="true" duration-ms="7963" started-at="2023-01-20T21:32:38 CST" finished-at="2023-01-20T21:32:46 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validateTechGlobalHeaderDropdownOptions()[pri:2, instance:scripts.TechGlobalHeaderTest@14bf9759]" name="validateTechGlobalHeaderDropdownOptions" duration-ms="1220" started-at="2023-01-20T21:32:46 CST" finished-at="2023-01-20T21:32:47 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTechGlobalHeaderDropdownOptions -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:scripts.TechGlobalHeaderTest@14bf9759]" name="teardown" is-config="true" duration-ms="83" started-at="2023-01-20T21:32:47 CST" finished-at="2023-01-20T21:32:47 CST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- scripts.TechGlobalHeaderTest -->
+      </class> <!-- scripts.TechGlobalCheckBoxTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+  </suite> <!-- scripts.TechGlobalCheckBoxTest -->
 </testng-results>
