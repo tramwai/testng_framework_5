@@ -16,6 +16,8 @@ public class TechGlobalBase {
     TechGlobalRadioButtonsPage techGlobalRadioButtonsPage;
     TechGlobalCheckBoxPage techGlobalCheckBoxPage;
 
+    TechGlobalDropdownsPage techGlobalDropdownsPage;
+
     @BeforeMethod
     public void setup() {
         driver = Driver.getDriver();
