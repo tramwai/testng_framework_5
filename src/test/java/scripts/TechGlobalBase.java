@@ -10,13 +10,14 @@ import utilities.Driver;
 public class TechGlobalBase {
     WebDriver driver;
     TechGlobalBasePage techGlobalBasePage;
-    TechGlobalFrontEndTestingHomePage techGlobalFrontEndTestingHomePage;
+    TechGlobalFrontendTestingHomePage techGlobalFrontendTestingHomePage;
     TechGlobalDynamicElementsPage techGlobalDynamicElementsPage;
     TechGlobalWaitsPage techGlobalWaitsPage;
     TechGlobalRadioButtonsPage techGlobalRadioButtonsPage;
     TechGlobalCheckBoxPage techGlobalCheckBoxPage;
 
     TechGlobalDropdownsPage techGlobalDropdownsPage;
+    TechGlobalMultipleWindowsPage techGlobalMultipleWindowsPage;
 
     @BeforeMethod
     public void setup() {

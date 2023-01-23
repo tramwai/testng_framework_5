@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TechGlobalCheckBoxPage;
-import pages.TechGlobalFrontEndTestingHomePage;
+import pages.TechGlobalFrontendTestingHomePage;
 
 public class TechGlobalCheckBoxTest extends TechGlobalBase {
 
@@ -21,15 +21,15 @@ public class TechGlobalCheckBoxTest extends TechGlobalBase {
 
     @BeforeMethod
     public void setPage() {
-        techGlobalFrontEndTestingHomePage = new TechGlobalFrontEndTestingHomePage();
+        techGlobalFrontendTestingHomePage = new TechGlobalFrontendTestingHomePage();
         techGlobalCheckBoxPage = new TechGlobalCheckBoxPage();
     }
 
     // Validate "Apple" and "Microsoft" checkboxes are displayed, enabled and not selected
     @Test(priority = 1, description = "Validate checkboxes")
     public void validateCheckboxes() {
-        techGlobalFrontEndTestingHomePage.getFrontendTestingPage();
-        techGlobalFrontEndTestingHomePage.clickOnCard(6);
+        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
+        techGlobalFrontendTestingHomePage.clickOnCard(6);
 
         techGlobalCheckBoxPage.checkboxInput.forEach(cb -> {
             Assert.assertTrue(cb.isDisplayed());
@@ -61,8 +61,8 @@ public class TechGlobalCheckBoxTest extends TechGlobalBase {
 
     @Test(priority = 2, description = "Validate checkboxes of second group")
     public void validateCheckboxes2() {
-        techGlobalFrontEndTestingHomePage.getFrontendTestingPage();
-        techGlobalFrontEndTestingHomePage.clickOnCard(6);
+        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
+        techGlobalFrontendTestingHomePage.clickOnCard(6);
 
         techGlobalCheckBoxPage.checkboxInput2.forEach(cb -> {
             Assert.assertTrue(cb.isDisplayed());

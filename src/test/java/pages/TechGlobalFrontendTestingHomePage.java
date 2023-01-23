@@ -7,9 +7,9 @@ import utilities.Driver;
 
 import java.util.List;
 
-public class TechGlobalFrontEndTestingHomePage extends TechGlobalBasePage {
+public class TechGlobalFrontendTestingHomePage extends TechGlobalBasePage {
 
-    public TechGlobalFrontEndTestingHomePage() {
+    public TechGlobalFrontendTestingHomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

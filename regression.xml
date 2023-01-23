@@ -33,11 +33,16 @@
                     <include name="toolsRadioButtons"/>
                 </methods>
             </class>
+
             <class name="scripts.TechGlobalWaitsPageTest">
                 <methods>
                     <include name="validateRedBox"/>
                 </methods>
             </class>
+
+            <class name="scripts.TechGlobalDropdownsTest"/>
+            <class name="scripts.TechGlobalMultipleWindowsTest"/>
+
         </classes>
     </test>
 </suite>

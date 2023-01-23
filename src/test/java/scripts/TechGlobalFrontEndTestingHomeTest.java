@@ -3,8 +3,7 @@ package scripts;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.TechGlobalFrontEndTestingHomePage;
-import utilities.Waiter;
+import pages.TechGlobalFrontendTestingHomePage;
 
 public class TechGlobalFrontEndTestingHomeTest extends TechGlobalBase {
 
@@ -39,12 +38,12 @@ public class TechGlobalFrontEndTestingHomeTest extends TechGlobalBase {
 
     @BeforeMethod
     public void setPage() {
-        techGlobalFrontEndTestingHomePage = new TechGlobalFrontEndTestingHomePage();
+        techGlobalFrontendTestingHomePage = new TechGlobalFrontendTestingHomePage();
     }
 
     @Test(priority = 1, description = "Validate Frontend testing cards")
     public void validateFrontEndTestingCards() {
-       techGlobalFrontEndTestingHomePage.getFrontendTestingPage();
+        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
 
         String[] cardTexts = {"Locators",
                 "Xpath-CSS Locators",
@@ -68,8 +67,8 @@ public class TechGlobalFrontEndTestingHomeTest extends TechGlobalBase {
                 "Calendar"};
 
         for (int i = 0; i < 20; i++) {
-            Assert.assertTrue(techGlobalFrontEndTestingHomePage.cards.get(i).isDisplayed());
-            Assert.assertEquals(techGlobalFrontEndTestingHomePage.cards.get(i).getText(), cardTexts[i]);
+            Assert.assertTrue(techGlobalFrontendTestingHomePage.cards.get(i).isDisplayed());
+            Assert.assertEquals(techGlobalFrontendTestingHomePage.cards.get(i).getText(), cardTexts[i]);
         }
     }
 
@@ -82,7 +81,7 @@ public class TechGlobalFrontEndTestingHomeTest extends TechGlobalBase {
      */
     @Test(priority = 2, description = "Validate URL")
     public void validateFrontendTestingURL() {
-        techGlobalFrontEndTestingHomePage.getFrontendTestingPage();
+        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
        Assert.assertTrue(driver.getCurrentUrl().contains("frontend"));
 
     }

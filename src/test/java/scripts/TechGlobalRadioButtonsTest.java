@@ -3,7 +3,7 @@ package scripts;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.TechGlobalFrontEndTestingHomePage;
+import pages.TechGlobalFrontendTestingHomePage;
 import pages.TechGlobalRadioButtonsPage;
 
 public class TechGlobalRadioButtonsTest extends TechGlobalBase{
@@ -20,14 +20,14 @@ public class TechGlobalRadioButtonsTest extends TechGlobalBase{
 
     @BeforeMethod
     public void setPage(){
-        techGlobalFrontEndTestingHomePage = new TechGlobalFrontEndTestingHomePage();
+        techGlobalFrontendTestingHomePage = new TechGlobalFrontendTestingHomePage();
         techGlobalRadioButtonsPage = new TechGlobalRadioButtonsPage();
     }
 
     @Test(priority = 1, description = "Validating TechGlobal Language Radio Buttons")
     public void languageRadioButtons(){
-        techGlobalFrontEndTestingHomePage.getFrontendTestingPage();
-        techGlobalFrontEndTestingHomePage.clickOnCard(5);
+        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
+        techGlobalFrontendTestingHomePage.clickOnCard(5);
 
         // Validate "Java", "JavaScript" and "C#" radio buttons are displayed, enabled and not selected
         for (int i = 0; i < techGlobalRadioButtonsPage.radioButtonsInput.size(); i++) {
@@ -64,8 +64,8 @@ public class TechGlobalRadioButtonsTest extends TechGlobalBase{
     @Test(priority = 2, description = "Validating TechGlobal Tools Radio Buttons")
     public void toolsRadioButtons(){
 
-        techGlobalFrontEndTestingHomePage.getFrontendTestingPage();
-        techGlobalFrontEndTestingHomePage.clickOnCard(5);
+        techGlobalFrontendTestingHomePage.getFrontendTestingPage();
+        techGlobalFrontendTestingHomePage.clickOnCard(5);
 
         // Validate "Selenium", "Cypress" and "Playwright" radio buttons are displayed, enabled and not selected
         for (int i = 0; i < techGlobalRadioButtonsPage.radioButtonsLabel2.size(); i++) {

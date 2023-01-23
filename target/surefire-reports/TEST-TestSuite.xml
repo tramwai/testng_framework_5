@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="130.627" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="239.083" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib"/>
@@ -63,12 +63,18 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="validateCheckboxes" classname="scripts.TechGlobalCheckBoxTest" time="5.171"/>
-  <testcase name="validateCheckboxes2" classname="scripts.TechGlobalCheckBoxTest" time="5.339"/>
-  <testcase name="dynamicElementsTest" classname="scripts.TechGlobalDynamicElementsTest" time="3.649"/>
-  <testcase name="validateFrontendTestingURL" classname="scripts.TechGlobalFrontEndTestingHomeTest" time="2.52"/>
-  <testcase name="validateTechGlobalHeaderDropdownOptions" classname="scripts.TechGlobalHeaderTest" time="1.885"/>
-  <testcase name="languageRadioButtons" classname="scripts.TechGlobalRadioButtonsTest" time="5.301"/>
-  <testcase name="toolsRadioButtons" classname="scripts.TechGlobalRadioButtonsTest" time="5.39"/>
-  <testcase name="validateRedBox" classname="scripts.TechGlobalWaitsPageTest" time="38.521"/>
+  <testcase name="validateCheckboxes" classname="scripts.TechGlobalCheckBoxTest" time="4.903"/>
+  <testcase name="validateCheckboxes2" classname="scripts.TechGlobalCheckBoxTest" time="5.19"/>
+  <testcase name="dynamicElementsTest" classname="scripts.TechGlobalDynamicElementsTest" time="3.207"/>
+  <testcase name="validateFrontendTestingURL" classname="scripts.TechGlobalFrontEndTestingHomeTest" time="2.406"/>
+  <testcase name="validateTechGlobalHeaderDropdownOptions" classname="scripts.TechGlobalHeaderTest" time="1.786"/>
+  <testcase name="languageRadioButtons" classname="scripts.TechGlobalRadioButtonsTest" time="4.987"/>
+  <testcase name="toolsRadioButtons" classname="scripts.TechGlobalRadioButtonsTest" time="5.635"/>
+  <testcase name="validateRedBox" classname="scripts.TechGlobalWaitsPageTest" time="38.325"/>
+  <testcase name="selectDeliveryOption" classname="scripts.TechGlobalDropdownsTest" time="1.826"/>
+  <testcase name="selectProductOption" classname="scripts.TechGlobalDropdownsTest" time="5.263"/>
+  <testcase name="selectColorOption" classname="scripts.TechGlobalDropdownsTest" time="5.191"/>
+  <testcase name="validateTheItemSelected" classname="scripts.TechGlobalDropdownsTest" time="7.297"/>
+  <testcase name="validateTheAppleLink" classname="scripts.TechGlobalMultipleWindowsTest" time="5.439"/>
+  <testcase name="validateLinkURLs" classname="scripts.TechGlobalMultipleWindowsTest" time="17.734"/>
 </testsuite>
