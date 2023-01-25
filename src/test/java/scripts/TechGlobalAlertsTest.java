@@ -7,10 +7,7 @@ import org.testng.annotations.Test;
 import pages.TechGlobalAlertsPage;
 import pages.TechGlobalFrontendTestingHomePage;
 import utilities.AlertHandler;
-import utilities.Driver;
-import utilities.Waiter;
 
-import java.security.AllPermission;
 
 public class TechGlobalAlertsTest extends TechGlobalBase {
 
