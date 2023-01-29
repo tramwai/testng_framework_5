@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class TechGlobalDynamicTablesPage extends TechGlobalBasePage{
 
     public TechGlobalDynamicTablesPage(){
@@ -14,6 +16,19 @@ public class TechGlobalDynamicTablesPage extends TechGlobalBasePage{
 
     @FindBy(id = "modal_title")
     public WebElement modalCardTitle;
+
+    @FindBy(css = ".input")
+    public List<WebElement> productDetails;
+
+    @FindBy(id = "submit")
+    public WebElement submitButton;
+
+    @FindBy(id = "total_amount")
+    public WebElement totalAmount;
+
+    @FindBy(css = "tbody td:nth-child(1)")
+    public List<WebElement> tableRow;
+
 
 
 }

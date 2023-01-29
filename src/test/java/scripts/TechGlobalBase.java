@@ -28,6 +28,8 @@ public class TechGlobalBase {
     TechGlobalFileUploadPage techGlobalFileUploadPage;
     TechGlobalFileDownloadPage techGlobalFileDownloadPage;
     TechGlobalStaticTablesPage techGlobalStaticTablesPage;
+    TechGlobalCalendarPage techGlobalCalendarPage;
+    TechGlobalSortableTablePage techGlobalSortableTablePage;
 
     @BeforeMethod
     public void setup() {
