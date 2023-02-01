@@ -20,3 +20,22 @@ public class TechGlobalSortableTablePage extends TechGlobalBasePage{
     @FindBy(id = "price_desc")
     public WebElement descByPrice;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
